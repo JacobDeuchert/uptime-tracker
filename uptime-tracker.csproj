@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>uptime_tracker</RootNamespace>
+    <UserSecretsId>553b7a9c-339d-4af8-afd7-dab17ed6e3d9</UserSecretsId>
+    <OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="5.0.10" />
+  </ItemGroup>
+
+</Project>
