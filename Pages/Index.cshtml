@@ -27,9 +27,6 @@
         </style>
 
         <script defer>
-
-
-            console.log(1)
             var entryJson = '@Html.Raw(Model.EntryJson)';
             document.addEventListener('DOMContentLoaded', () => {
                 const entries = JSON.parse(entryJson);
