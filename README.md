@@ -1,4 +1,4 @@
-### Simple app to track the time your PC was turned on
+### Simple app to track the time your PC was running
 The app needs to be running in the background in order to monitor the uptime of your computer.
 Best way to achieve this is to create a shortcut of the .exe and copy it into the autostart directory (shell:startup).
 
